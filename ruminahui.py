@@ -11,7 +11,7 @@ def consulta():
     valor3 = valor2.replace('<span>','')
     global valor4
     valor4 = valor3.replace('</span>','')
-
+# para ir a las urls
 url='https://serviciosagr.pichincha.gob.ec/ws-peaje/api/publico/consulta/saldo/placa/pdm1590'
 consulta()
 print ('KICS Placa: PDM1590 SALDO: ' + valor4)
